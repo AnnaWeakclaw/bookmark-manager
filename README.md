@@ -25,7 +25,18 @@ I want to be able to see a list of bookmarks
 Client sends a request to the Controller to get Bookmarks.
 Controller calls Model to get data and View to display it and send the view back to the Client as a response.
 
+```
+As a time-pressed user
+So that I can save a website
+I would like to add the site's address and title to bookmark manager
+```
+
 ## Instructions
 1. Run _bundle install_
 2. Run _rackup -p 4567_
 3. Go to [here](url (http://localhost:4567))
+4. install server to run the database _brew install postgresql_ and run _pg\_ctl -D /usr/local/var/postgres start_
+5. Allow Homebrew to start and stop Postgres service with: "ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents", 
+"launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+6. `psql postgres` gives us access to postgres database
+7. Create database inside psql: `CREATE DATABASE "student";`
