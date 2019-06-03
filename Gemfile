@@ -6,4 +6,5 @@ group :development, :test do
   gem 'capybara'
   gem 'rspec'
   gem 'rubocop'
+  gem 'simplecov', require: false
 end
