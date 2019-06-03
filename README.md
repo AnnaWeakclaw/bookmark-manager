@@ -24,3 +24,6 @@ I want to be able to see a list of bookmarks
 
 Client sends a request to the Controller to get Bookmarks.
 Controller calls Model to get data and View to display it and send the view back to the Client as a response.
+
+## Instructions
+1. Rub _bundle install_
