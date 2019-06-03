@@ -26,4 +26,6 @@ Client sends a request to the Controller to get Bookmarks.
 Controller calls Model to get data and View to display it and send the view back to the Client as a response.
 
 ## Instructions
-1. Rub _bundle install_
+1. Run _bundle install_
+2. Run _rackup -p 4567_
+3. Go to [here](url (http://localhost:4567))
