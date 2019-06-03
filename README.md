@@ -39,4 +39,6 @@ I would like to add the site's address and title to bookmark manager
 5. Allow Homebrew to start and stop Postgres service with: "ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents", 
 "launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 6. `psql postgres` gives us access to postgres database
-7. Create database inside psql: `CREATE DATABASE "student";`
+7. Create database inside psql: `CREATE DATABASE "name";` or `CREATE TABLE name;` in this case `CREATE DATABASW bookmark_manager;`
+8. Connect to the database inside psql by writing `\c bookmark_manager;`
+9. Run the query from migrations file
