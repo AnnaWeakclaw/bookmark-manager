@@ -22,3 +22,5 @@ I want to be able to see a list of bookmarks
 | website = bookmark    | Being displayed         |
 | list of bookmarks     | Show bookmarks          |
 
+Client sends a request to the Controller to get Bookmarks.
+Controller calls Model to get data and View to display it and send the view back to the Client as a response.
