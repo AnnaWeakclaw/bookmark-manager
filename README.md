@@ -26,7 +26,7 @@ Client sends a request to the Controller to get Bookmarks.
 Controller calls Model to get data and View to display it and send the view back to the Client as a response.
 
 ```
-As a time-pressed user
+As an internet user
 So that I can save a website
 I would like to add the site's address and title to bookmark manager
 ```
@@ -41,5 +41,12 @@ I would like to add the site's address and title to bookmark manager
 6. `psql postgres` gives us access to postgres database
 7. Create database inside psql: `CREATE DATABASE "name";` or `CREATE TABLE name;` in this case `CREATE DATABASW bookmark_manager;`
 8. Connect to the database inside psql by writing `\c bookmark_manager;`
-9. Run the query from migrations file
+9. Run the query from migrations file `db/migrations`
 10. Install TablePlus and connect to bookmark_manager database
+11. Create a test database called `bookmark_manager_test`
+
+```
+As an internet user
+So that I can save a link to a new and intereting website
+I would like to add the site's address and title to bookmark manager
+```
