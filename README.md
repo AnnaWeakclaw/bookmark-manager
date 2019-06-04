@@ -42,3 +42,4 @@ I would like to add the site's address and title to bookmark manager
 7. Create database inside psql: `CREATE DATABASE "name";` or `CREATE TABLE name;` in this case `CREATE DATABASW bookmark_manager;`
 8. Connect to the database inside psql by writing `\c bookmark_manager;`
 9. Run the query from migrations file
+10. Install TablePlus and connect to bookmark_manager database
