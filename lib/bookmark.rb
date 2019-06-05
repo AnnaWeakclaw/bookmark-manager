@@ -2,10 +2,9 @@
 require "pg"
 
 class Bookmark
+  attr_reader :id, :title, :url
 
-  # def initialize(id:, url:, title:)
-
-  # end
+# The hyperlink redirects to localhost
 
   def self.create
     @bookmark = Bookmark.new

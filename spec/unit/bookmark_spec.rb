@@ -11,4 +11,15 @@ describe Bookmark do
     expect(bookmark.all.last[:url]).to eq "http://www.ruby.org"
     expect(bookmark.all.last[:title]).to eq "Ruby"
   end
+
+  it "creates a bookmark object" do
+    bookmark = Bookmark.create
+    expect(bookmark).to be_a_kind_of(Bookmark)
+  end
+
+  it "creates a bookmark object" do
+    bookmark = Bookmark.create
+    bookmark1 = Bookmark.instance
+    expect(bookmark).to eq(bookmark1)
+  end
 end
